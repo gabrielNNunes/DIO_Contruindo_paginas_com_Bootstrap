@@ -1,0 +1,127 @@
+body{
+    background: url("https://unsplash.com/photos/6aIPTaMGKwE/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM4OTE5MzIw&force=true&w=1920");
+    
+
+    width: 100%;
+    
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#home{    
+    color: #FFF;
+    text-shadow: 
+               -1px -1px 0px #000, 
+               -1px 1px 0px #000,                    
+                1px -1px 0px #000,                  
+                1px 0px 0px #000;
+    /*height: 1000px;*/
+    background: -moz-linear-gradient(left,  rgba(135,135,135,0.75) 0%, rgba(135,135,135,0.75) 1%, rgba(47,53,58,0.75) 100%);
+background: -webkit-linear-gradient(left,  rgba(135,135,135,0.75) 0%,rgba(135,135,135,0.75) 1%,rgba(47,53,58,0.75) 100%);
+background: linear-gradient(to right,  rgba(135,135,135,0.75) 0%,rgba(135,135,135,0.75) 1%,rgba(47,53,58,0.75) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf878787', endColorstr='#bf2f353a',GradientType=1 );
+
+
+      
+}
+.nav-link{
+    font-size: 130%;
+    margin-top:14px;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+a:hover{
+    color: darkgrey;
+}
+.navbar{
+
+}
+#logo_bootstrap{
+    width: 100%;
+    padding: 10px;
+}
+#footer{
+    color: #f8f9fa;
+}
+.imgUsers{
+    width: 40%;
+    margin-top: 30px;
+}
+.iconeLinkedin{
+    width: 40px;
+    margin-bottom: 30px;
+}
+.iconeGit{
+    margin-bottom: 30px;
+    width: 32px;
+    background-color: white;
+    border-radius: 50%;
+}
+.carousel-item{
+    width: 100%;
+    
+  
+}
+.carousel{
+   max-height: 500px; 
+}
+
+.no-padding{
+    padding: 0;
+}
+.padding20{
+    padding: 40px;
+}
+.divSiteTeste{
+    padding: 40px 40px 0 40px;
+}
+#imgSiteTeste{
+    width: 10vw;
+}
+.h5carousel,.p-carousel{
+    
+    font-size: 150%;
+    color: #FFF;
+    text-shadow: 
+               -1px -1px 0px #000, 
+               -1px 1px 0px #000,                    
+                1px -1px 0px #000,                  
+                1px 0px 0px #000;
+} 
+#footer>div>h3{
+    text-align: center;
+}
+@media screen and (max-width: 991.9px){
+   button.navbar-toggler{
+    margin: 10px;
+    width: 20vw;
+}
+.nav_options{
+    margin-left: 20vw;
+    width: 60vw;
+} 
+.nav_logo{
+    margin-left: 20vw;
+    width: 60vw;
+}
+
+  }
+  @media screen and (min-width: 1600px){
+.divSiteTeste{
+    
+    margin-top: 3vw;
+}      
+  } 
+  @media screen and (min-width: 1845px){
+    .divSiteTeste{
+        
+        margin-top: 5vw;
+    }      
+      }   
+
+
+
+   
